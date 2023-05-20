@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KanBan</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="icon" type="image/svg+xml" href="./assets/ico.svg" />
+  </head>
+  <body>
+    <div id="app">
+      <nav>
+        <img src="./assets/logo.svg" alt="Logom do site" class="logo" />
+
+        <ul>
+          <li>
+            <a href="#" class="active">
+              <ion-icon name="tablet-portrait"></ion-icon>Boards
+            </a>
+          </li>
+
+          <li>
+            <a href="#"> <ion-icon name="people"></ion-icon>Equipes</a>
+          </li>
+
+          <li>
+            <a href="#">
+              <ion-icon name="document-text"></ion-icon>Relatórios</a
+            >
+          </li>
+
+          <li>
+            <a href="#"> <ion-icon name="cog"></ion-icon>Ajustes</a>
+          </li>
+        </ul>
+      </nav>
+
+      <main>
+        <div class="inner">
+          <section class="title-avatar">
+            <h1>
+              Meu Kanban
+              <img src="./assets/pencil.svg" alt="" />
+            </h1>
+            <img src="https://github.com/isadoraguiar.png" alt="Avatar" />
+          </section>
+
+          <section class="filter">
+            <button>
+              <ion-icon name="filter-outline"></ion-icon>
+              <span>Filtrar</span>
+            </button>
+            <div class="input-wrapper">
+              <ion-icon name="search-outline"></ion-icon>
+              <input
+                type="text"
+                placeholder="Busque por cards, assuntos ou responsáveis..."
+              />
+            </div>
+          </section>
+
+          <!-- Section Kanban -->
+          <section class="kanban">
+            <div class="todo">
+              <h2>A fazer</h2>
+              <div class="cards">
+                <div class="card">
+                  <h3>#boraCordar um Kanban 👩‍💻</h3>
+                  <p>
+                    Novo desafio do #boraCodar da Rocketseat, onde é proposto
+                    construir um quadro de Kanban.
+                  </p>
+                  <div class="tags">
+                    <span>rocketseat</span>
+                    <span>desafio</span>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <h3>Manter a ofensiva 🔥</h3>
+                  <p>
+                    Manter minha atividade na plataforma da Rocketseat para não
+                    perder a ofensiva
+                  </p>
+                  <div class="tags">
+                    <span>rocketseat</span>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <h3>Almoçar 🥗</h3>
+                  <p>
+                    Me alimentar, aproveitando um momento de descanso para
+                    recarregar minhas energias durante o almoço
+                  </p>
+                  <div class="tags">
+                    <span>autocuidado</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="doing">
+              <h2>Fazendo</h2>
+              <div class="cards">
+                <div class="card">
+                  <h3>Conferir o novo desafio 🚀</h3>
+                  <p>
+                    Conferir o novo projeto do #boraCodar para fazê-lo da melhor
+                    maneira possível
+                  </p>
+                  <div class="tags">
+                    <span>rocketseat</span>
+                    <span>desafio</span>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <h3>Ser incrível 😎</h3>
+                  <p>
+                    Sempre me lembrar de manter minha autenticidade e espalhar
+                    amor
+                  </p>
+                  <div class="tags">
+                    <span>autocuidado</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="done">
+              <h2>Feito</h2>
+              <div class="cards">
+                <div class="card">
+                  <h3>#boraCodar uma página de login 👩‍💻</h3>
+                  <p>
+                    Novo desafio do #boraCodar da Rocketseat, onde é proposto
+                    construir um quadro de Kanban.
+                  </p>
+                  <div class="tags">
+                    <span>rocketseat</span>
+                    <span>desafio</span>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <h3>#boraCodar uma página de clima 👩‍💻</h3>
+                  <p>
+                    Novo desafio do #boraCodar da Rocketseat, onde é proposto
+                    construir um quadro de Kanban.
+                  </p>
+                  <div class="tags">
+                    <span>rocketseat</span>
+                    <span>desafio</span>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <h3>#boraCodar um conversor 👩‍💻</h3>
+                  <p>
+                    Novo desafio do #boraCodar da Rocketseat, onde é proposto
+                    construir um quadro de Kanban.
+                  </p>
+                  <div class="tags">
+                    <span>rocketseat</span>
+                    <span>desafio</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
