@@ -14,7 +14,7 @@ body {
 }
 
 body {
-  background: url('./assets/bg.jpg') no-repeat center center/cover;
+  background: var(--dark-blue, #000013);
 
   font-family: 'Outfit', sans-serif;
   padding: 2rem;
@@ -42,6 +42,7 @@ aside {
   display: flex;
   align-items: center;
   justify-content: center;
+
   max-width: 20rem;
 }
 
@@ -70,6 +71,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  
   padding: 0.5rem 1rem;
 
   background: var(--blue, #151557);
@@ -109,7 +111,8 @@ p {
 
 @media (min-width: 1200px) {
   body {
-  padding: 0;
+    background: url('./assets/bg.jpg') no-repeat center center/cover;
+    padding: 0;
   }
 
   #app {
