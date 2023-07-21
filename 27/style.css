@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+#app,
+body {
+  height: 100vh;
+}
+
+body {
+  background: url('./assets/bg.jpg') no-repeat center center/cover;
+
+  font-family: 'Outfit', sans-serif;
+  padding: 2rem;
+}
+
+#app {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+main {
+  max-width: 20rem;
+  text-align: center;
+  color: #D6D6F2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 20rem;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 120%;
+}
+
+p {
+  margin-top: 1.5rem;
+
+  font-size: 1rem;
+  line-height: 140%;
+  font-weight: 300;
+}
+
+.button-wrapper {
+  margin-top: 3.5rem;
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+
+  background: var(--blue, #151557);
+  border-radius: 62.4375rem;
+
+  color: var(--gray-02, #E2E2F5);
+  font-weight: 500;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background: var(--blue-light, #212187);
+}
+
+@media (min-width: 680px) {
+  main {
+    max-width: 28rem;
+  }
+  
+  aside {
+    max-width: 28rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    padding: 0.75rem 1.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+  padding: 0;
+  }
+
+  #app {
+  grid-template-columns: 1fr 1fr;
+  padding: 0 10rem;
+  }
+
+  main {
+  max-width: 23.75rem;
+  }
+
+  aside {
+  max-width: none;
+  }
+}
