@@ -22,7 +22,7 @@
 
 <h2 align="center"><a href="https://isadoraguiar.github.io/boracodar-dev/09" target="_blank">Projeto ao vivo</a></h2>
 
-## 🚀 Tecnologias
+### 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -31,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Apex Charts](https://apexcharts.com/)
 - [Flag Icons](https://github.com/lipis/flag-icons)
 
-## 📚 Um pouco do que aprendi no desafio:
+### 📚 Um pouco do que aprendi no desafio:
 
 - `outline` x `border` CSS property
 - Custom `<select>`
@@ -40,11 +40,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Configuração do Apex Charts
 - `String()` e `.replace()`
 
-## 🔖 Layout
+### 🔖 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1212757179376046656). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
-## :memo: Licença
+### :memo: Licença
 
 Esse projeto está sob a licença MIT.
 

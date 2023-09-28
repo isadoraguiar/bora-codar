@@ -22,7 +22,7 @@
 
 <h2 align="center"><a href="https://isadoraguiar.github.io/boracodar-dev/07" target="_blank">Projeto ao vivo</a></h2>
 
-## 🚀 Tecnologias
+### 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 - Figma
 
-## O que aprendi nesse desafio:
+### O que aprendi nesse desafio:
 
 - Organização de Github, readme, imagens, hacks para tabela de readme
 - Input, Select e Button customizados
@@ -39,11 +39,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS: `all`, `overflow`, `::before`, `::after`, `rem`, `position`, `fit-content`, `flex e grid`, `@media` e `responsividade`
 - Novo DevTools do Edge
 
-## 🔖 Layout
+### 🔖 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1207675804423978995). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
-## :memo: Licença
+### :memo: Licença
 
 Esse projeto está sob a licença MIT.
 

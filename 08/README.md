@@ -22,7 +22,7 @@
 
 <h2 align="center"><a href="https://isadoraguiar.github.io/boracodar-dev/08" target="_blank">Projeto ao vivo</a></h2>
 
-## 🚀 Tecnologias
+### 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Figma
 - https://bennettfeely.com/clippy/
 
-## 📚 O que aprendi nesse desafio:
+### 📚 O que aprendi nesse desafio:
 
 ```md
 # CSS
@@ -63,15 +63,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - linearGradient
 ```
 
-## 🍩 Estudos sobre Donut Chart
+### 🍩 Estudos sobre Donut Chart
 
 https://www.fronteditor.dev/gists/e7d5a452582ebe081f81dee776bca246/view
 
-## 🔖 Layout
+### 🔖 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1210217615683203825). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
-## :memo: Licença
+### :memo: Licença
 
 Esse projeto está sob a licença MIT.
 

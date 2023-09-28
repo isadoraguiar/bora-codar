@@ -22,7 +22,7 @@
 
 <h2 align="center"><a href="https://isadoraguiar.github.io/boracodar-dev/10" target="_blank">Projeto ao vivo</a></h2>
 
-## 🚀 Tecnologias
+### 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 - Figma
 
-## 📚 Um pouco do que aprendi nesse desafio:
+### 📚 Um pouco do que aprendi nesse desafio:
 
 - grid-column, grid-row e as linhas virtuais do Grid
 - responsividade
@@ -43,11 +43,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - cálculo de graus (deg) (transform/rotate/translate)
 - css mask e linear-gradient()
 
-## 🔖 Layout
+### 🔖 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1215291914714743267). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
-## :memo: Licença
+### :memo: Licença
 
 Esse projeto está sob a licença MIT.
 

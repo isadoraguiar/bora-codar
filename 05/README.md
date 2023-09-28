@@ -22,7 +22,7 @@
 
 <h2 align="center"><a href="https://isadoraguiar.github.io/boracodar-dev/05" target="_blank">Projeto ao vivo</a></h2>
 
-## 🚀 Tecnologias
+### 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 - Figma
 
-## 📚 Um pouco do que foi passado nesse desafio
+### 📚 Um pouco do que foi passado nesse desafio
 
 - linear-gradient
 - box-shadow
@@ -38,7 +38,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - grid
 - repeat
 
-## 🔖 Layout
+### 🔖 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1202607074523509182). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
