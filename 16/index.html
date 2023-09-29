@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de Contatos</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="container">
+      <nav class="flex items-center">
+        <h2>Meus contatos</h2>
+
+        <ul class="flex items-center">
+          <li>
+            <ion-icon name="add"></ion-icon>
+          </li>
+
+          <li>
+            <ion-icon name="pencil"></ion-icon>
+          </li>
+
+          <li>
+            <ion-icon name="trash"></ion-icon>
+          </li>
+        </ul>
+      </nav>
+
+      <form>
+        <div class="input-wrapper flex items-center">
+          <label class="sr-only" for="filter"
+            >Busque por nome ou dados de contato</label
+          >
+          <ion-icon name="search-outline"></ion-icon>
+          <input
+            type="text"
+            id="filter"
+            placeholder="Busque por nome ou por dados de contato..."
+          />
+        </div>
+      </form>
+    </header>
+
+    <section class="contacts container">
+      <div class="list-wrapper flex">
+        <div class="letter purple">A</div>
+
+        <ul>
+          <li>
+            <div class="person flex">
+              <img src="https://randomuser.me/api/portraits/men/5.jpg" />
+
+              <div class="contact">
+                <h3>Abraão Silva</h3>
+                <p>(11) 98429-1234</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="list-wrapper flex">
+        <div class="letter green">B</div>
+
+        <ul>
+          <li>
+            <div class="person flex">
+              <img src="https://randomuser.me/api/portraits/women/5.jpg" />
+
+              <div class="contact">
+                <h3>Beatriz Souza</h3>
+                <p>(11) 98309-1421</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="person flex">
+              <img src="https://randomuser.me/api/portraits/women/6.jpg" />
+
+              <div class="contact">
+                <h3>Brenda Costa</h3>
+                <p>(11) 99829-4321</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="list-wrapper flex">
+        <div class="letter pink">C</div>
+
+        <ul>
+          <li>
+            <div class="person flex">
+              <img src="https://randomuser.me/api/portraits/men/13.jpg" />
+
+              <div class="contact">
+                <h3>Caio Lúcio</h3>
+                <p>(11) 98749-1454</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="person flex">
+              <img src="https://randomuser.me/api/portraits/men/14.jpg" />
+
+              <div class="contact">
+                <h3>Cleiton Souza</h3>
+                <p>(11) 98789-1354</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="list-wrapper flex">
+        <div class="letter blue">D</div>
+
+        <ul>
+          <li>
+            <div class="person flex">
+              <img src="https://randomuser.me/api/portraits/women/10.jpg" />
+
+              <div class="contact">
+                <h3>Daniela Soares</h3>
+                <p>(11) 99929-8933</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="person flex">
+              <img src="https://randomuser.me/api/portraits/men/7.jpg" />
+
+              <div class="contact">
+                <h3>Diego Abrantes</h3>
+                <p>(11) 98734-3333</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="list-wrapper flex">
+        <div class="letter yellow">E</div>
+
+        <ul>
+          <li>
+            <div class="person flex">
+              <img src="https://randomuser.me/api/portraits/men/10.jpg" />
+
+              <div class="contact">
+                <h3>Elias Almeida</h3>
+                <p>(11) 99922-2231</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
