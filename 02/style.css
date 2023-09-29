@@ -67,12 +67,16 @@ html.animated img#animated {
   object-fit: cover;
 }
 
-h4 {
+#product-details {
+  padding-right: 40px;
+}
+
+#product-details h4 {
   font-weight: 300;
   font-size: 10px;
 }
 
-h1 {
+#product-details h1 {
   font-family: 'Crimson Pro', serif;
   font-weight: 600;
   font-size: 32px;
@@ -80,7 +84,7 @@ h1 {
   margin-top: 12px;
 }
 
-p {
+#product-details p {
   margin-top: 12px;
   opacity: 0.67;
 }
@@ -96,4 +100,20 @@ p {
   background-color: transparent;
 
   margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  #app {
+    flex-direction: column;
+  }
+  
+  #product-image > img {
+    width: 400px;
+    height: 173px;
+  }
+  
+  #product-details {
+    display: flex;
+    flex-direction: column;
+  }
 }
