@@ -112,13 +112,18 @@ html.animated img#animated {
   }
   
   #product-image > img {
-    width: 400px;
-    height: 173px;
+    width: 380px;
+    height: 153px;
   }
   
   #product-details {
     display: flex;
     flex-direction: column;
     padding-right: 0px;
+    text-align: center;
+  }
+
+  #product-details button {
+    border: 1px solid var(--text-color);
   }
 }
