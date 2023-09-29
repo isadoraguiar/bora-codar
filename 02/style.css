@@ -99,12 +99,16 @@ html.animated img#animated {
 
   background-color: transparent;
 
-  margin-top: 20px;
+  margin-block: 20px;
 }
 
 @media (max-width: 768px) {
   #app {
     flex-direction: column;
+  }
+
+  #product-image {
+    margin-inline: 10px;
   }
   
   #product-image > img {
@@ -115,5 +119,6 @@ html.animated img#animated {
   #product-details {
     display: flex;
     flex-direction: column;
+    padding-right: 0px;
   }
 }
