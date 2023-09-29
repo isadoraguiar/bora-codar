@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: #1F2937;
+}
+
+body, input, button {
+  font-size: 1.6rem;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+form {
+  padding: 2.4rem;
+  max-width: 40rem;
+
+  margin: auto;
+}
+
+#credit-card {
+  width: 32.8rem;
+  height: 21.2rem;
+
+  perspective: 60rem;
+}
+
+#credit-card > div {
+  width: inherit;
+  height: inherit;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+
+  transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#credit-card .front {
+  background: url(https://i.ibb.co/KbVj9Hk/cc-front.png) no-repeat;
+  transform: rotateY(0);
+}
+
+#credit-card .back { 
+  background: url(https://i.ibb.co/tchF1dG/cc-back.png) no-repeat;
+  transform: rotateY(-180deg);
+  top: -5px;
+}
+
+#credit-card:active .front, 
+#credit-card:hover .front {
+  transform: rotateY(180deg);
+}
+
+#credit-card:active .back,
+#credit-card:hover .back {
+  transform: rotateY(0);
+}
+
+.flex {
+  display: flex;
+}
+
+.inputs {
+  margin-top: 4.8rem;
+
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+label {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #E5E7EB;
+
+  gap: .4rem;
+  align-items: center;
+}
+
+input {
+  margin-top: .4rem;
+
+  width: 100%;
+  font-family: 'Source Sans 3';
+
+  padding: 1.2rem;
+  border: .1rem solid #374151;
+
+  background: #111827;
+  border-radius: .4rem;
+
+  color: #F3F4F6;
+}
+
+input:focus {
+  outline: 0.15rem solid #9333EA;
+}
+
+input:invalid:focus {
+  border: 0.15rem solid #FB7185;
+}
+
+input + .warning {
+  display: none;
+}
+
+input:invalid:focus + .warning {
+  margin-top: .8rem;
+
+  font-size: 1.4rem;
+  color: #FB7185;
+
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+}
+
+.col-2 {
+  gap: 2.4rem;
+  align-items: center;
+}
+
+.col-2 .input-wrapper:nth-child(2) {
+  flex-basis: 40%;
+}
+
+.help img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.info-security {
+  margin-top: 4.8rem;
+
+  justify-content: center;
+  gap: .8rem;
+
+  font-size: 1.4rem;
+  color: #E5E7EB;
+}
+
+button {
+  margin-top: 10rem;
+
+  border: 0;
+  border-radius: .4rem;
+  padding: 1.6rem;
+
+  width: 100%;
+
+  background: #9333EA;
+
+  box-shadow: .0rem .4rem 1.6rem rgba(0, 0, 0, 0.1);
+
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  color: #F9FAFB;
+
+  cursor: pointer;
+  transition: background .2s;
+}
+
+button:hover {
+  background: #A855F7;
+}

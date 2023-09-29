@@ -26,7 +26,8 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML e CSS
+- HTML
+- CSS
 - JavaScript e DOM
 - [iMask](http://imask.js.org/)
 - Figma
