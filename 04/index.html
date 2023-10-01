@@ -9,8 +9,10 @@
     />
 
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
     <title>Chat</title>
 
     <link rel="stylesheet" href="style.css" />
@@ -18,58 +20,72 @@
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
   </head>
   <body>
-    <div id="app">
-      <div id="top">
-        <div id="user-info">
-          <img
-            src="https://randomuser.me/api/portraits/women/76.jpg"
-            alt="Mulher com cabelo preto longo usando uma blusa preta"
-          />
-
-          <div id="user-status">
-            <strong>Cecilia Sassaki</strong>
-            <div class="status">Online</div>
-          </div>
+    <header>
+      <div class="user-info">
+        <img
+          src="https://randomuser.me/api/portraits/women/76.jpg"
+          alt="Mulher com cabelo preto longo usando uma blusa preta"
+        />
+        <div class="user-status">
+          <span class="user">Cecilia Sassaki</span>
+          <span class="status">
+            <svg
+              width="8"
+              height="9"
+              viewBox="0 0 8 9"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="4" cy="4.5" r="4" fill="#00B37E" />
+            </svg>
+            Online
+          </span>
         </div>
-
-        <div id="close-chat"><i class="ph ph-x"></i></div>
       </div>
+      <button class="close">
+        <i class="ph ph-x"></i>
+      </button>
+    </header>
 
-      <div id="messages">
-        <div id="last-seen">Hoje 11:30</div>
+    <main>
+      <div class="chat-wrapper">
+        <div class="chat">
+          <span class="last-seen">Hoje 11:30</span>
 
-        <div class="messages">
-          <div class="message">
-            <div class="top">Cecilia - 11:30</div>
-            <div class="body">Tive uma ideia incrível para um projeto! 😍</div>
+          <div class="message friend">
+            <span>Cecilia - 11:30</span>
+            <p>Tive uma ideia incrível para um projeto! 😍</p>
           </div>
 
           <div class="message you">
-            <div class="top">Você - 11:32</div>
-            <div class="body">Sério? Me conta mais.</div>
+            <span>Você - 11:32</span>
+            <p>Sério? Me conta mais.</p>
           </div>
 
-          <div class="message">
-            <div class="top">Cecilia - 11:34</div>
-            <div class="body">
+          <div class="message friend">
+            <span>Cecilia - 11:34</span>
+            <p>
               E se a gente fizesse um chat moderno e responsivo em apenas uma
               semana?
-            </div>
+            </p>
           </div>
 
           <div class="message you">
-            <div class="top">Você - 11:36</div>
-            <div class="body"><strong>#boraCodar! 🚀</strong></div>
+            <span>Você - 11:36</span>
+            <p class="strong">#boraCodar! 🚀</p>
           </div>
         </div>
       </div>
+    </main>
 
-      <form id="bottom">
-        <input type="text" placeholder="Digite sua mensagem" />
-        <button type="submit">
-          <i class="ph ph-paper-plane-right"></i>
-        </button>
-      </form>
+    <div class="input-wrapper">
+      <input type="text" placeholder="Digite sua mensagem" />
+
+      <button type="submit">
+        <i class="ph ph-paper-plane-right"></i>
+      </button>
     </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
