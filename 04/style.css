@@ -118,6 +118,7 @@ main .chat {
 }
 
 main .last-seen {
+  margin-top: 1rem;
   align-self: center;
 }
 
