@@ -1,10 +1,10 @@
-let insert = document.querySelector('.insert__value')
-let result = document.querySelector('.result__value')
-let buttons = document.querySelectorAll('.data')
-let cancel = document.querySelector('.cancel')
-let clear = document.querySelector('.clear')
-let negative = document.querySelector('.negative')
-let equal = document.querySelector('.equal')
+const insert = document.querySelector('.insert-value')
+const result = document.querySelector('.result-value')
+const buttons = document.querySelectorAll('.data')
+const cancel = document.querySelector('.cancel')
+const clear = document.querySelector('.clear')
+const negative = document.querySelector('.negative')
+const equal = document.querySelector('.equal')
 
 buttons.forEach(button => {
   button.addEventListener('click', function (e) {

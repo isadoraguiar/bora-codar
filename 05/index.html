@@ -9,7 +9,10 @@
     />
 
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
     <title>Calculator</title>
 
     <link rel="stylesheet" href="style.css" />
@@ -17,43 +20,78 @@
   <body>
     <div id="calculator">
       <div id="display">
-        <div id="last-calc">1+1</div>
-        <div id="result">
-          <img src="./assets/equals.svg" alt="Sinal de igual" />
-          <span>2</span>
+        <div class="insert">
+          <input class="insert-value" type="text" disabled />
+        </div>
+
+        <div class="result">
+          <img
+            class="result-image"
+            src="./assets/equals.svg"
+            alt="Sinal de igual"
+          />
+          <input class="result-value" type="text" disabled />
         </div>
       </div>
 
-      <div id="keyboard">
-        <button class="secondary">CE</button>
-        <button>C</button>
-        <button><img src="./assets/percent.svg" alt="" /></button>
-        <button class="tertiary">
-          <img src="./assets/divide.svg" alt="" />
+      <div class="keyboard">
+        <button class="keyboard-button cancel">CE</button>
+        <button class="keyboard-button clear">C</button>
+        <button class="keyboard-button data" data-num="%">
+          <img
+            src="./assets/percent.svg"
+            alt="Sinal de porcentagem"
+            data-num="%"
+          />
         </button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button class="tertiary">
-          <img src="./assets/multiply.svg" alt="" />
+        <button
+          class="keyboard-button keyboard-button-violet data"
+          data-num="/"
+        >
+          <img src="./assets/divide.svg" alt="Sinal de divisão" data-num="/" />
         </button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button class="tertiary">
-          <img src="./assets/minus.svg" alt="" />
+        <button class="keyboard-button data" data-num="7">7</button>
+        <button class="keyboard-button data" data-num="8">8</button>
+        <button class="keyboard-button data" data-num="9">9</button>
+        <button
+          class="keyboard-button keyboard-button-violet data"
+          data-num="*"
+        >
+          <img
+            src="./assets/multiply.svg"
+            alt="Sinal de multiplicação"
+            data-num="*"
+          />
         </button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button class="tertiary"><img src="./assets/plus.svg" alt="" /></button>
-        <button><img src="./assets/plusminus.svg" alt="" /></button>
-        <button>0</button>
-        <button>,</button>
-        <button class="quartiary">
-          <img src="./assets/result.svg" alt="" />
+        <button class="keyboard-button data" data-num="4">4</button>
+        <button class="keyboard-button data" data-num="5">5</button>
+        <button class="keyboard-button data" data-num="6">6</button>
+        <button
+          class="keyboard-button keyboard-button-violet data"
+          data-num="-"
+        >
+          <img src="./assets/minus.svg" alt="Sinal de menos" data-num="-" />
+        </button>
+        <button class="keyboard-button data" data-num="1">1</button>
+        <button class="keyboard-button data" data-num="2">2</button>
+        <button class="keyboard-button data" data-num="3">3</button>
+        <button
+          class="keyboard-button keyboard-button-violet data"
+          data-num="+"
+        >
+          <img src="./assets/plus.svg" alt="Sinal de mais" data-num="+" />
+        </button>
+        <button class="keyboard-button negative">
+          <img src="./assets/plusminus.svg" alt="Sinal de mais ou menos" />
+        </button>
+        <button class="keyboard-button data" data-num="0">0</button>
+        <button class="keyboard-button data" data-num=".">,</button>
+        <button class="keyboard-button keyboard-button-purple equal">
+          <img src="./assets/result.svg" alt="Sinal de igual" />
         </button>
       </div>
     </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
