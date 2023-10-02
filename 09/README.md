@@ -1,4 +1,4 @@
-<h1 align="center"> Currency converter </h1>
+<h1 align="center"> Currency Converter </h1>
 
 <p align="center">
 #boraCodar são desafios semanais promovidos pela Rocketseat para ensino de tecnologias WEB. <br/>
@@ -26,7 +26,8 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML, CSS e JS
+- HTML e CSS
+- Javascript
 - Figma
 - [Apex Charts](https://apexcharts.com/)
 - [Flag Icons](https://github.com/lipis/flag-icons)
