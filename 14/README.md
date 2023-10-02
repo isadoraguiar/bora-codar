@@ -1,4 +1,4 @@
-<h1 align="center"> Upload component </h1>
+<h1 align="center"> Upload Component </h1>
 
 <p align="center">
 #boraCodar são desafios semanais promovidos pela Rocketseat para ensino de tecnologias WEB. <br/>
