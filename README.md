@@ -72,13 +72,13 @@
         </tr>
         <tr>
             <td>06</td>
-            <td><a href="06">Boarding pass</a></td>
+            <td><a href="06">Boarding Pass</a></td>
             <td>15/02/23</td>
             <td align="center" ><a href="06"><img width="300px" src="06/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>07</td>
-            <td><a href="07">Carnival search website</a></td>
+            <td><a href="07">Carnival Search Website</a></td>
             <td>22/02/23</td>
             <td align="center" ><a href="07"><img width="300px" src="07/.github/preview.jpg" /></a></td>
         </tr>
@@ -90,19 +90,19 @@
         </tr>
         <tr>
             <td>09</td>
-            <td><a href="09">Currency converter</a></td>
+            <td><a href="09">Currency Converter</a></td>
             <td>08/03/23</td>
             <td align="center" ><a href="09"><img width="300px" src="09/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>10</td>
-            <td><a href="10">Weather app</a></td>
+            <td><a href="10">Weather App</a></td>
             <td>15/03/23</td>
             <td align="center" ><a href="10"><img width="300px" src="10/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>11</td>
-            <td><a href="11">Login page</a></td>
+            <td><a href="11">Login Page</a></td>
             <td>22/03/23</td>
             <td align="center" ><a href="11"><img width="300px" src="11/.github/preview.jpg" /></a></td>
         </tr>
@@ -114,13 +114,13 @@
         </tr>
         <tr>
             <td>13</td>
-            <td><a href="13">Card form</a></td>
+            <td><a href="13">Card Form</a></td>
             <td>05/04/23</td>
             <td align="center" ><a href="13"><img width="300px" src="13/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>14</td>
-            <td><a href="14">Upload component</a></td>
+            <td><a href="14">Upload Component</a></td>
             <td>12/04/23</td>
             <td align="center" ><a href="14"><img width="300px" src="14/.github/preview.jpg" /></a></td>
         </tr>
@@ -135,6 +135,12 @@
             <td><a href="16">Contact Page</a></td>
             <td>26/04/23</td>
             <td align="center" ><a href="16"><img width="300px" src="16/.github/preview.jpg" /></a></td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td><a href="17">Date Picker</a></td>
+            <td>03/05/23</td>
+            <td align="center" ><a href="17"><img width="300px" src="17/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>27</td>
