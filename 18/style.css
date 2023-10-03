@@ -130,3 +130,40 @@ body {
   line-height: 130%;
   color: var(--description);
 }
+
+/* media queries */
+@media (max-width: 767px) {
+  .cards-back {
+    display: none;
+  }
+  
+  .card {
+    width: 35.6rem;
+    height: 52.8rem;
+  }
+  
+  .card-info {
+    padding: 3.2rem 10rem 5rem 3rem;
+  }
+  
+  .card-info header {
+    gap: 1rem;
+    width: 21rem;
+
+    margin-bottom: 2.5rem;
+  }
+  
+  .card-info h1 {
+    font-size: 2.6rem;
+    line-height: 3.4rem;
+  }
+  
+  .character {
+    bottom: -60px;
+  }
+  
+  .main {
+    gap: 1.2rem;
+    width: 15rem;
+  }
+}
