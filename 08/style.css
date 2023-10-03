@@ -28,10 +28,11 @@ body {
   padding: 2.9rem 4.8rem;
 
   background: #363447;
-  box-shadow: 0.3rem 0.4rem 2.6rem rgba(0, 0, 0, 0.25);
-  border-radius: 1.6rem;
   color: white;
   line-height: 160%;
+
+  box-shadow: 0.3rem 0.4rem 2.6rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.6rem;
 
   gap: 3.2rem;
 }
@@ -45,9 +46,9 @@ body {
   height: fit-content;
 
   margin: auto;
+  padding: 3.2rem;
 
   place-content: center;
-  padding: 3.2rem;
 }
 
 .top {
@@ -58,6 +59,7 @@ body {
 .middle {
   display: grid;
   place-content: center;
+
   position: relative;
 }
 
@@ -66,6 +68,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
   text-align: center;
 }
 
@@ -75,8 +78,8 @@ body {
 
 .bottom {
   display: flex;
-  gap: 2rem;
   justify-content: center;
+  gap: 2rem;
 
   margin-top: auto;
   
@@ -115,9 +118,13 @@ body {
 
 .nps .middle {
   height: 19.7rem;
+
   place-content: center;
   justify-items: center;
   gap: 1.6rem;
+
+  font-size: 2.2rem;
+
   color: #81fbb8;
 }
 
@@ -127,6 +134,7 @@ body {
 
 svg {
   --percentage: 0;
+
   width: 19.7rem;
   height: 19.7rem;
   transform: rotate(-90deg);
@@ -185,8 +193,9 @@ svg circle:nth-child(2) {
 
 .left .grid span {
   font-size: 1.4rem;
-  align-items: centetr;
+  
   display: flex;
+  align-items: center;
   gap: 0.4rem;
 }
 
@@ -200,19 +209,22 @@ svg circle:nth-child(2) {
 
 .left .most-sell span::before {
   background: linear-gradient(180deg, #81fbb8 0%, #28c76f 100%);
+
   margin-top: 0.4rem;
 }
 
 .left .less-sell span::before {
   background: linear-gradient(180deg, #ea5455 0%, #feb692 100%);
   transform: matrix(1, 0, 0, -1, 0, 0);
+
   margin-top: 0.6rem;
 }
 
 .bars {
   display: flex;
-  gap: calc(3vw + 1rem);
   align-items: flex-end;
+  gap: calc(3vw + 1rem);
+
   position: relative;
 }
 
@@ -234,6 +246,7 @@ svg circle:nth-child(2) {
   grid-template-rows: 15.9rem 1.6rem;
   justify-items: center;
   gap: 0.5rem;
+
   z-index: 1;
 }
 
@@ -243,6 +256,7 @@ svg circle:nth-child(2) {
   border-radius: 99.9rem;
 
   height: var(--height);
+  
   align-self: end;
 
   animation: up 1.4s;

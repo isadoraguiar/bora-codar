@@ -26,7 +26,8 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML, CSS e SVG
+- HTML e CSS
+- Git e Github
 - Figma
 - https://bennettfeely.com/clippy/
 
