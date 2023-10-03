@@ -143,6 +143,12 @@
             <td align="center" ><a href="17"><img width="300px" src="17/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
+            <td>18</td>
+            <td><a href="18">Character Card</a></td>
+            <td>10/05/23</td>
+            <td align="center" ><a href="18"><img width="300px" src="18/.github/preview.jpg" /></a></td>
+        </tr>
+        <tr>
             <td>27</td>
             <td><a href="27">Page Not Found</a></td>
             <td>12/07/23</td>
