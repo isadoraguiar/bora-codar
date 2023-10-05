@@ -155,6 +155,12 @@
             <td align="center" ><a href="19"><img width="300px" src="19/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
+            <td>20</td>
+            <td><a href="20">Gallery</a></td>
+            <td>24/05/23</td>
+            <td align="center" ><a href="20"><img width="300px" src="20/.github/preview.jpg" /></a></td>
+        </tr>
+        <tr>
             <td>27</td>
             <td><a href="27">Page Not Found</a></td>
             <td>12/07/23</td>
