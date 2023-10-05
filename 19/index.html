@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Widget de Transporte</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </head>
+  <body>
+    <div class="card flex">
+      <div class="card-drag"></div>
+
+      <div class="card-header">
+        <h1>Encontre <span>Mayk</span> no local de partida</h1>
+        <p>Chega em 3 minutos (800 metros)</p>
+      </div>
+
+      <div class="card-body flex items-center">
+        <div class="left flex items-center">
+          <div class="driver flex items-center">
+            <div class="driver-avatar">
+              <img
+                src="https://github.com/maykbrito.png"
+                alt="Imagem de Mayk Brito"
+              />
+            </div>
+
+            <div class="driver-stars flex items-center">
+              <div class="star">
+                <i class="ph-fill ph-star"></i>
+              </div>
+              <strong>5.0</strong>
+            </div>
+
+            <div class="driver-name">Mayk B.</div>
+          </div>
+
+          <div class="car-img">
+            <img
+              src="https://i.ibb.co/JH0hjgQ/image-3769.png"
+              alt="Imagem de um carro roxo"
+            />
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="car-plate">BCD0D19</div>
+          <div class="car-model">Honda Civic Roxo</div>
+        </div>
+      </div>
+
+      <div class="card-footer flex items-center">
+        <div class="input-wrapper flex items-center">
+          <label for="message" class="sr-only"
+            >Enviar mensagem para Mayk...</label
+          >
+          <input
+            id="message"
+            type="text"
+            placeholder="Enviar mensagem para Mayk..."
+          />
+        </div>
+
+        <div class="phone">
+          <i class="ph-fill ph-phone"></i>
+        </div>
+
+        <div class="shield">
+          <i class="ph-fill ph-shield-plus"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

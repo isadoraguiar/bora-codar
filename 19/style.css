@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #121214;
+
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border-width: 0;
+  white-space: nowrap;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+/* card */
+.card {
+  max-width: 79.5rem;
+  flex-direction: column;
+  gap: 8rem;
+
+  padding: 2.4rem 5.6rem;
+  border-radius: 4rem;
+
+  background-color: white;
+}
+
+.card-drag {
+  width: 16.8rem;
+  height: 1.6rem;
+
+  background: #E5D8EA;
+  margin-inline: auto;
+  border-radius: 99.9rem;
+}
+
+/* card-header */
+.card-header h1 {
+  font-size: 4rem;
+  line-height: 4.8rem;
+
+  color: #372D3B;
+}
+
+.card-header h1 span {
+  color: #864293;
+}
+
+.card-header p {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+
+  color: #372D3B;
+}
+
+/* card-body */
+.card-body {
+  justify-content: space-between;
+}
+
+/* driver */
+.driver {
+  flex-direction: column;
+  justify-content: center;
+
+  z-index: 1;
+}
+
+.driver-avatar img {
+  width: 13.8rem;
+  height: 13.8rem;
+  
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.driver-stars {
+  width: 10rem;
+  height: 3.2rem;
+ 
+  justify-content: center;
+  gap: 1rem;
+
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #FBF8FC;
+  background: #372D3B;
+
+  border-radius: 99.9rem;
+
+  margin-top: -3.2rem;
+}
+
+.driver-name {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  color: #372D3B;
+
+  margin-top: 0.6rem;
+}
+
+.car-img {
+  margin-left: -5rem;
+}
+
+.car-plate {
+  font-weight: 700;
+  font-size: 4.2rem;
+  line-height: 5rem;
+
+  color: #372D3B;
+}
+
+.car-model {
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+
+  color: #372D3B;
+
+  margin-top: 1.2rem;
+}
+
+/* card-footer */
+.card-footer {
+  gap: 3rem;
+}
+
+.input-wrapper {
+  background: #F5EDF7;
+  border-radius: 2.4rem;
+
+  height: 5.8rem;
+
+  flex: 3;
+
+  padding: 0 2.9rem;
+}
+
+.input-wrapper input {
+  width: 100%;
+
+  background: transparent;
+  border: 0;
+
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  color: #372D3B;
+}
+
+.input-wrapper input:focus {
+  outline: 0;
+}
+
+.input-wrapper:focus-within {
+  outline: .3rem solid black;
+}
+
+.card-footer .ph-fill {
+  font-size: 5.2rem;
+}
+
+@media (max-width: 900px) {
+  .card {
+    max-width: 38rem;
+    padding: 2.4rem;
+    text-align: center;
+    gap: 4rem;
+  }
+  
+  .card-drag {
+    width: 12rem;
+    height: 1.2rem;
+  }
+  
+  /* card-header */
+  .card-header h1 {
+    font-size: 3rem;
+    line-height: 3.8rem;
+    margin-bottom: 0.4rem;
+  }
+  
+  .card-header p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+  
+  /* card-body */
+  .card-body {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  /* driver */
+  .driver-avatar img {
+    width: 11.8rem;
+    height: 11.8rem;
+  }
+  
+  .driver-stars {
+    width: 8rem;
+    height: 2.4rem;
+
+    font-size: 1.8rem;
+    line-height: 2rem;
+  
+    margin-top: -2.8rem;
+  }
+  
+  .driver-name {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+  
+  .car-img {
+    margin-left: -5.5rem;
+  }
+  
+  .car-plate {
+    font-size: 3.4rem;
+    line-height: 4rem;
+
+    margin-bottom: -0.8rem;
+  }
+  
+  .car-model {
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+  }
+  
+  /* card-footer */
+  .card-footer {
+    gap: 2rem;
+  }
+  
+  .input-wrapper {
+    height: 4.6rem;
+    padding: 0 1.6rem;
+  }
+  
+  .input-wrapper input {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  .input-wrapper input::placeholder {
+    font-size: 1.4rem;
+  }
+  
+  .card-footer .ph-fill {
+    font-size: 3.2rem;
+  }
+}
+
