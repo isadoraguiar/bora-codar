@@ -1,7 +1,7 @@
 <h1 align="center"> Date Picker </h1>
 
 <p align="center">
-Este projeto é de um componente de seleção de data e período. Ele pode ser utilizado em aplicações web ou mobile. <br/>
+Projeto de um componente de seleção de data e período. Ele pode ser utilizado em aplicações web ou mobile. <br/>
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@ Este projeto é de um componente de seleção de data e período. Ele pode ser u
   <img src=".github/preview.jpg" width="100%">
 </p>
 
-<h2 align="center"><a href="https://isadoraguiar.github.io/boracodar-dev/17" target="_blank">Projeto ao vivo</a></h2>
+<h2 align="center"><a href="https://isadoraguiar.github.io/bora-codar/17" target="_blank">Projeto ao vivo</a></h2>
 
 ### 🚀 Tecnologias
 
@@ -41,4 +41,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Feito com ♥ por Isadora Aguiar :wave:

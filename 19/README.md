@@ -1,7 +1,7 @@
 <h1 align="center"> Transport Widget </h1>
 
 <p align="center">
-Este é um projeto de um widget com informações do seu motorista em um aplicativo de transporte. <br/>
+Projeto de um widget com informações do seu motorista em um aplicativo de transporte. <br/>
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@ Este é um projeto de um widget com informações do seu motorista em um aplicat
   <img src=".github/preview.jpg" width="100%">
 </p>
 
-<h2 align="center"><a href="https://isadoraguiar.github.io/boracodar-dev/19" target="_blank">Projeto ao vivo</a></h2>
+<h2 align="center"><a href="https://isadoraguiar.github.io/bora-codar/19" target="_blank">Projeto ao vivo</a></h2>
 
 ### 🚀 Tecnologias
 
@@ -41,4 +41,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Feito com ♥ por Isadora Aguiar :wave:

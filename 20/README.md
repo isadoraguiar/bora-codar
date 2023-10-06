@@ -1,7 +1,7 @@
 <h1 align="center"> Gallery </h1>
 
 <p align="center">
-Esta galeria é uma página interativa, que mostra informações extras com o hover. Inspirada no desafio 20 do #boraCodar. <br/>
+Projeto de uma galeria interativa, que mostra informações extras com o hover. Inspirada no desafio do #boraCodar. <br/>
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@ Esta galeria é uma página interativa, que mostra informações extras com o ho
   <img src=".github/preview.jpg" width="100%">
 </p>
 
-<h2 align="center"><a href="https://isadoraguiar.github.io/boracodar-dev/20" target="_blank">Projeto ao vivo</a></h2>
+<h2 align="center"><a href="https://isadoraguiar.github.io/bora-codar/20" target="_blank">Projeto ao vivo</a></h2>
 
 ### 🚀 Tecnologias
 

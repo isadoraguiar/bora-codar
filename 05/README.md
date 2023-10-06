@@ -1,7 +1,7 @@
 <h1 align="center"> Calculator </h1>
 
 <p align="center">
-#boraCodar são desafios semanais promovidos pela Rocketseat para ensino de tecnologias WEB. <br/>
+Projeto de uma calculadora com funcionalidade adicionada com Javascript. <br/>
 </p>
 
 <p align="center">
@@ -20,13 +20,14 @@
   <img src=".github/preview.jpg" width="100%">
 </p>
 
-<h2 align="center"><a href="https://isadoraguiar.github.io/boracodar-dev/05" target="_blank">Projeto ao vivo</a></h2>
+<h2 align="center"><a href="https://isadoraguiar.github.io/bora-codar/05" target="_blank">Projeto ao vivo</a></h2>
 
 ### 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
+- Javascript
 - Git e Github
 - Figma
 
@@ -48,4 +49,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Feito com ♥ por Isadora Aguiar :wave:

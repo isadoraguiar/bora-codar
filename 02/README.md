@@ -1,7 +1,7 @@
 <h1 align="center"> Product Card </h1>
 
 <p align="center">
-#boraCodar são desafios semanais promovidos pela Rocketseat para ensino de tecnologias WEB. <br/>
+Projeto de um card de produto para visualizar os detalhes de um produto à venda. <br/>
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@
   <img src=".github/preview.jpg" width="100%">
 </p>
 
-<h2 align="center"><a href="https://isadoraguiar.github.io/boracodar-dev/02" target="_blank">Projeto ao vivo</a></h2>
+<h2 align="center"><a href="https://isadoraguiar.github.io/bora-codar/02" target="_blank">Projeto ao vivo</a></h2>
 
 ### 🚀 Tecnologias
 
@@ -40,4 +40,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Feito com ♥ por Isadora Aguiar :wave:
