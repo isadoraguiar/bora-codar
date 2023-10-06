@@ -23,9 +23,7 @@ body {
 
 #app {
   width: 90%;
-  height: 100vh;
-
-  margin: 14rem auto 8rem;
+  margin: 14rem auto 6rem;
 
   color: var(--text-color);
 
