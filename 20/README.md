@@ -1,7 +1,7 @@
 <h1 align="center"> Gallery </h1>
 
 <p align="center">
-Esta galeria é uma página interativa, que mostra informações extras com o hover. <br/>
+Esta galeria é uma página interativa, que mostra informações extras com o hover. Inspirada no desafio 20 do #boraCodar. <br/>
 </p>
 
 <p align="center">
@@ -41,4 +41,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Feito com ♥ por Isadora Aguiar :wave:
