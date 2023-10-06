@@ -24,7 +24,7 @@ body {
 #app {
   width: 90%;
   height: 100vh;
-  
+
   margin: 14rem auto 8rem;
 
   color: var(--text-color);
@@ -143,5 +143,11 @@ header i {
 
   .container {
     column-gap: 2rem;
+  }
+
+  .image-wrapper:hover h2 {
+    height: 5rem;
+    font-size: 1.8rem;
+    padding-left: 1rem;
   }
 }
