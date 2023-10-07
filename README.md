@@ -161,6 +161,42 @@
             <td align="center" ><a href="20"><img width="300px" src="20/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
+            <td>21</td>
+            <td><a href="21">Shopping Cart</a></td>
+            <td>31/05/23</td>
+            <td align="center" ><a href="21"><img width="300px" src="21/.github/preview.jpg" /></a></td>
+        </tr>
+        <tr>
+            <td>22</td>
+            <td><a href="22">Profile Settings</a></td>
+            <td>07/06/23</td>
+            <td align="center" ><a href="22"><img width="300px" src="22/.github/preview.jpg" /></a></td>
+        </tr>
+        <tr>
+            <td>23</td>
+            <td><a href="23">Multi Step Form</a></td>
+            <td>14/06/23</td>
+            <td align="center" ><a href="23"><img width="300px" src="23/.github/preview.jpg" /></a></td>
+        </tr>
+        <tr>
+            <td>24</td>
+            <td><a href="24">Lighting Adjustments</a></td>
+            <td>21/06/23</td>
+            <td align="center" ><a href="24"><img width="300px" src="24/.github/preview.jpg" /></a></td>
+        </tr>
+        <tr>
+            <td>25</td>
+            <td><a href="25">VR Player</a></td>
+            <td>28/06/23</td>
+            <td align="center" ><a href="25"><img width="300px" src="25/.github/preview.jpg" /></a></td>
+        </tr>
+        <tr>
+            <td>26</td>
+            <td><a href="26">June Recipes</a></td>
+            <td>05/07/23</td>
+            <td align="center" ><a href="26"><img width="300px" src="26/.github/preview.jpg" /></a></td>
+        </tr>
+        <tr>
             <td>27</td>
             <td><a href="27">Page Not Found</a></td>
             <td>12/07/23</td>
