@@ -1,7 +1,7 @@
 <h1 align="center"> Dashboard </h1>
 
 <p align="center">
-Projeto de uma página web para visualização de métricas. <br/>
+Projeto de uma página web para visualização de métricas, com animações nos gráficos. <br/>
 </p>
 
 <p align="center">
