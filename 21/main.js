@@ -56,13 +56,13 @@ window.addEventListener('load', () => {
               
               <div class="price-qty">
                 <button class="minus">
-                    <img src="./assets/minus.svg" alt="Botão de subtração" />
+                    <img src="./assets/Minus.svg" alt="Botão de subtração" />
                 </button>
 
                 <input type="text" id="quantity" value="1" maxLength="2" class="quantity" disabled/>
 
                 <button class="plus">
-                    <img src="./assets/plus.svg" alt="Botão de adição" />
+                    <img src="./assets/Plus.svg" alt="Botão de adição" />
                 </button>
               </div>
             </div>
