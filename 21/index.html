@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrinho de Compras</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </head>
+  <body>
+    <div id="successful-message">
+      <p>
+        <i class="ph ph-check"></i>
+        Pedido concluído com sucesso!
+      </p>
+    </div>
+
+    <div id="app">
+      <header>
+        <h1>Seu carrinho tem <strong>5 itens</strong></h1>
+        <img src="./assets/close.svg" alt="Ícone de fechar" />
+      </header>
+
+      <main>
+        <div class="products-wrapper"></div>
+      </main>
+
+      <footer>
+        <div>
+          <div class="total-wrapper">
+            <span>Total:</span>
+            <span class="total-price bold">R$ 10.681,60</span>
+          </div>
+
+          <div class="coupons">
+            <i class="ph ph-tag"></i>
+            <div>
+              <p>Adicionar Cupom</p>
+
+              <div class="input-wrapper">
+                <input type="text" id="coupon-input" />
+                <img
+                  src="./assets/close.svg"
+                  alt="Ícone de fechar cupom input"
+                  class="close-input-wrapper"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="checkout">Finalizar compra</button>
+      </footer>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
