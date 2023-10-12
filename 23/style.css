@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+	--color-base-white: #ffffff;
+	--color-base-gray-100: #e1e1e6;
+	--color-base-gray-200: #8c8c99;
+	--color-base-gray-300: #7c7c8a;
+	--color-base-gray-400: #323238;
+	--color-feedback-sucess-color: #1d8841;
+	--color-produto-purple-light: #8257e5;
+	--color-produto-purple-mid: #633bbc;
+
+  font-size: 62.5%;
+}
+
+html, body, input, textarea, button {
+  font-size: 1.6rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  padding: 3.2rem;
+  border: 1px solid var(--color-base-gray-100);
+  border-radius: .6rem;
+
+  overflow: hidden;
+}
+
+.step-progress {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  
+  border-bottom: 1px solid var(--color-base-gray-100);
+  padding-bottom: 3.2rem;
+
+  counter-reset: step;
+}
+
+.step-progress strong {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+
+  color: var(--color-base-gray-200);
+}
+
+.step-progress strong.active {
+  color: var(--color-base-gray-400);
+}
+
+.step-progress strong::before {
+  counter-increment: step;
+  content: counter(step);
+
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.4rem;
+  line-height: 100%;
+  background-color: var(--color-base-gray-100);
+
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--color-base-gray-200);
+}
+
+.step-progress .active::before {
+  background-color: var(--color-produto-purple-mid);
+  color: var(--color-base-white);
+}
+
+.step-progress .done::before {
+  content: '✔';
+  background-color: var(--color-feedback-sucess-color);
+}
+
+.content {
+  margin-top: 3.2rem;
+
+  display: grid;
+  gap: 1.6rem;
+}
+
+.button-wrapper {
+  margin-top: 3.2rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1.6rem 3.2rem;
+
+  border: 0;
+  border-radius: .6rem;
+
+  font-weight: 700;
+  text-transform: uppercase;
+
+  min-width: 15.8rem;
+
+  cursor: pointer;
+}
+
+.primary {
+  background-color: var(--color-produto-purple-mid);
+  color: var(--color-base-white);
+}
+
+.primary:hover {
+  background-color: var(--color-produto-purple-light);
+}
+
+.secondary {
+  background-color: var(--color-base-white);
+  color: var(--color-produto-purple-mid);
+
+  border: 1px solid var(--color-produto-purple-mid);
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+label {
+  font-weight: 700;
+  color: var(--color-base-gray-400);
+}
+
+input, textarea {
+  width: 100%;
+  
+  margin-top: 4px;
+  padding: 1.6rem;
+  
+  background-color: var(--color-base-white);
+
+  border: 1px solid var(--color-base-gray-100);
+  border-radius: .2rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--color-base-gray-200);
+}
+
+.form-step {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+/* animation */ 
+@keyframes appear {
+ 0% {
+  scale: .7;
+  opacity: 0;
+ }
+}
+
+.form-step.active {
+  animation: appear 200ms 100ms ease-in-out backwards;
+}
+
+@keyframes slideout {
+  100% {
+    transform: translate(50%);
+    opacity: 0;
+  }
+}
+
+.form-step {
+  animation: slideout 200ms ease-in-out forwards;
+}
+
+/* media queries */
+@media (max-width: 600px) {
+  :root {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  form {
+    padding: 2.8rem;
+  }
+  
+  .step-progress {
+    gap: 1.2rem;
+  }
+}
+
+@media (max-width: 375px) {
+  form {
+    padding: 2.4rem;
+  }
+  
+  .step-progress {
+    gap: 1.6rem;
+  }
+
+  .step-progress img {
+    display: none;
+  }
+}
