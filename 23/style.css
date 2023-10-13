@@ -89,7 +89,11 @@ form {
 }
 
 .step-progress .done::before {
-  content: '✔';
+  content: "";
+  background-image: url(./assets/check.svg);
+  background-size: 1.8rem 1.8rem;
+  background-repeat: no-repeat;
+  background-position: right 5px center;
   background-color: var(--color-feedback-sucess-color);
 }
 
