@@ -215,24 +215,25 @@ textarea {
 
 @media (max-width: 480px) {
   form {
-    padding: 2.8rem;
+    padding: 2.4rem;
   }
   
   .step-progress {
-    gap: 1.2rem;
+    gap: .8rem;
   }
 }
 
 @media (max-width: 375px) {
   form {
-    padding: 2.4rem;
+    padding: 2.2rem;
   }
   
   .step-progress {
-    gap: 1.6rem;
+    justify-content: space-between;
+    gap: .4rem;
   }
 
-  .step-progress img {
-    display: none;
+  .button-wrapper {
+    gap: 2rem;
   }
 }
