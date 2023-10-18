@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+
+  background-image: url('assets/bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 100vh;
+  display: grid;
+  place-content: center;
+
+  overflow: hidden;
+  
+  backdrop-filter: brightness(0.5);
+}
+
+#app {
+  display: grid;
+  grid-template-areas: 
+  'aside header'
+  'aside main'
+  'aside footer';
+
+  gap: 2.4rem;
+
+  animation: appear 400ms 500ms backwards;
+}
+
+/* header */ 
+header {
+  grid-area: header;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+
+  width: fit-content;
+  justify-self: center;
+
+  padding: .8rem 1.2rem;
+
+  border-radius: 8rem;
+  background: rgba(255, 255, 255, 0.10);
+
+  box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.05), 0px 1px 1px 0px rgba(255, 255, 255, 0.30) inset, 0px -1px 1px 0px rgba(255, 255, 255, 0.10) inset;
+
+  backdrop-filter: blur(1.6rem);
+}
+
+.actions {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.6rem;
+
+  cursor: pointer;
+}
+
+.actions ion-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+
+  color: #fff;
+  opacity: 0.8;
+  border-radius: 8rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: .8rem;
+}
+
+.actions ion-icon:hover, 
+.actions i.ai-panel-left:hover {
+  background: rgba(255, 255, 255, 0.2);
+  opacity: 1;
+}
+
+.actions i.ai-panel-left {
+  font-size: 2.4rem;
+  color: #fff;
+
+  opacity: 0.8;
+
+  width: 4rem;
+  height: 4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 8rem;
+}
+
+.address-bar {
+  width: 44rem;
+
+  font-size: 1.5rem;
+  line-height: 2.4rem; 
+  color: rgba(255, 255, 255, 0.80);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1.2rem;
+  border-radius: 8rem;
+
+  background: rgba(0, 0, 0, 0.10);
+  box-shadow: 0px -1px 0px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 0px 0px rgba(0, 0, 0, 0.20) inset;
+}
+
+.address-bar ion-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  flex-shrink: 0;
+
+  opacity: 0.8;
+
+  cursor: pointer;
+}
+
+.rocket {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+}
+
+.rocket ion-icon {
+  width: 1.6rem;
+  height: 1.6rem;
+
+  margin-top: -2px;
+}
+
+/* aside */ 
+aside {
+  grid-area: aside;
+}
+
+.side-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.2rem;
+
+  height: fit-content;
+  align-self: center;
+
+  padding: 1.2rem;
+
+  border-radius: 8rem;
+  background: rgba(255, 255, 255, 0.10);
+
+  box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.05), 0px 1px 1px 0px rgba(255, 255, 255, 0.30) inset, 0px -1px 1px 0px rgba(255, 255, 255, 0.10) inset;
+  backdrop-filter: blur(1.6rem);
+
+  cursor: pointer;
+}
+
+.side-menu ion-icon {
+  display: flex;
+  padding: .8rem;
+  align-items: flex-start;
+
+  border-radius: 8rem;
+  
+  width: 2.4rem;
+  height: 2.4rem;
+
+  color: #fff;
+  opacity: 0.8;
+}
+
+.side-menu ion-icon:hover {
+  background: rgba(255, 255, 255, 0.20);
+  opacity: 1;
+}
+
+/* main */ 
+main {
+  grid-area: main;
+}
+
+.screen {
+  width: 96rem;
+  height: 54rem;
+
+  border-radius: 3.2rem;
+  border: 1px solid transparent;
+
+  box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.05);
+
+  position: relative;
+}
+
+.screen::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(to right, rgba(255 255 255 / 0.1), rgba(255 255 255 / 0.6));
+
+  border-radius: inherit;
+  margin: -1px;
+  z-index: -1;
+}
+
+#video {
+  width: 100%;
+  height: 100%;
+
+  border-radius: inherit;
+}
+
+#ambient-light {
+  position: absolute;
+
+  z-index: -1;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  border-radius: inherit;
+  pointer-events: none;
+  scale: 1.2;
+
+  filter: blur(100px) opacity(0.5) saturate(300%);
+  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0);
+}
+
+
+/* footer */ 
+footer {
+  grid-area: footer;
+}
+
+.interaction {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+
+  justify-self: center;
+}
+
+.interaction .ellipse, 
+.interaction .rectangle {
+  width: .8rem;
+  height: .8rem;
+
+  border-radius: .8rem;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(2px);
+}
+
+.interaction .rectangle {
+  width: 8.6rem;
+}
+
+/* animation */ 
+@keyframes appear {
+  from {
+    scale: 2;
+    opacity: 0;
+  }
+}
+
+/* media queries */
+@media (max-width: 1400px) {
+  :root {
+    font-size: 50%;
+  }
+}
