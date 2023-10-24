@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recomendação de Filme com AI</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <section class="card">
+      <div class="container">
+        <header>
+          <img src="./assets/logo.png" alt="Logo do site" />
+          <button onclick="generateMovieRecommendations()">
+            <p>Nova recomendação</p>
+            <img src="./assets/icons/gerar.svg" alt="Gerar recomendação" />
+          </button>
+        </header>
+
+        <section class="movies"></section>
+      </div>
+    </section>
+  </body>
+</html>
