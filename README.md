@@ -204,19 +204,19 @@
         </tr>
         <tr>
             <td>28</td>
-            <td><a href="28">Page Not Found</a></td>
+            <td><a href="28">AI Platform</a></td>
             <td>19/07/23</td>
             <td align="center" ><a href="28"><img width="300px" src="28/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>29</td>
-            <td><a href="29">Page Not Found</a></td>
+            <td><a href="29">Before and After AI</a></td>
             <td>26/07/23</td>
             <td align="center" ><a href="29"><img width="300px" src="29/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>30</td>
-            <td><a href="30">Page Not Found</a></td>
+            <td><a href="30">Movie Recommendation AI</a></td>
             <td>02/08/23</td>
             <td align="center" ><a href="30"><img width="300px" src="30/.github/preview.jpg" /></a></td>
         </tr>
