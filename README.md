@@ -220,5 +220,11 @@
             <td>02/08/23</td>
             <td align="center" ><a href="30"><img width="300px" src="30/.github/preview.jpg" /></a></td>
         </tr>
+        <tr>
+            <td>31</td>
+            <td><a href="31">Video Transcription AI</a></td>
+            <td>09/08/23</td>
+            <td align="center" ><a href="31"><img width="300px" src="31/.github/preview.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
