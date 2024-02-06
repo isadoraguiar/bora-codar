@@ -226,5 +226,11 @@
             <td>09/08/23</td>
             <td align="center" ><a href="31"><img width="300px" src="31/.github/preview.jpg" /></a></td>
         </tr>
+        <tr>
+            <td>32</td>
+            <td><a href="32">SQL Translation App</a></td>
+            <td>16/08/23</td>
+            <td align="center" ><a href="32"><img width="300px" src="32/.github/preview.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
